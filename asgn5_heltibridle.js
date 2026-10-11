@@ -7,13 +7,13 @@ var displayMsg = function () {
   var age = parseInt($("age").value);
   var sleep = parseInt($("sleep").value);
 
-  var myText = "Hi " + firstName + ".";
+  var myText = "Hi " + firstName + ". ";
 
-  var mathOutput = age * sleep;
+  var yearsSlept = Math.round(age * (sleep / 24));
 
-  var mySentence = "You have slept " + mathOutput + " years of your life away."
+  var mySentence = "You have slept " + yearsSlept + " years of your life away."
 
-    $("mymsg").innerHTML = myText + mySentence;
+  $("mymsg").innerHTML = myText + mySentence;
   $("mymsg").setAttribute("class", "bluetext");
 }
 

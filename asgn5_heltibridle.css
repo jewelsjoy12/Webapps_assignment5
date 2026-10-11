@@ -1,15 +1,15 @@
 body {
-	font-family: Arial, Verdana, sans-serif;
-	background-color: palegoldenrod;
+  font-family: Arial, Verdana, sans-serif;
+  background-color: palegoldenrod;
 }
 
 p {
-	color: saddlebrown;
-	padding: 10px;
+  color: saddlebrown;
+  padding: 10px;
 }
 
 #container {
-  width:60%;
+  width: 60%;
 }
 
 .greentext {
@@ -22,7 +22,7 @@ p {
 }
 
 .headcolor {
-	color: white;
-	background-color: saddlebrown;
-	padding: 10px;
+  color: white;
+  background-color: saddlebrown;
+  padding: 10px;
 }
