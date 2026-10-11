@@ -12,8 +12,13 @@ p {
   width:60%;
 }
 
-#mypara {
+.greentext {
   color: green;
+}
+
+.bluetext {
+  color: blue;
+  font-size: 1.5em;
 }
 
 .headcolor {
