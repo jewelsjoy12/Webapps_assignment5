@@ -5,6 +5,7 @@ var $ = function (id) {
 displayMsg = function () {
   var myText = "Hi"
   $("mymsg").innerHTML = myText;
+  $("mymsg").setAttribute("class", "bluetext");
 }
 
 window.onload = function () {
